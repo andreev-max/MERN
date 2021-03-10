@@ -1,0 +1,5 @@
+{
+  "port": 8080,
+  "jwtSecret": "nAzdAc",
+  "mongoUri": "mongodb+srv://nAzdAc:nAzdAc1996@cluster0.jwsiw.mongodb.net/app?retryWrites=true&w=majority"
+}

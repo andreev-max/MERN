@@ -1,0 +1,34 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "mern fullstack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nAzdAc/MERN.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "React",
+    "NodeJS"
+  ],
+  "author": "Max Andreev <nAzdAc15071996@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nAzdAc/MERN/issues"
+  },
+  "homepage": "https://github.com/nAzdAc/MERN#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

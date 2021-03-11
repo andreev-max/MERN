@@ -1,5 +1,6 @@
 {
   "port": 8080,
   "jwtSecret": "nAzdAc",
-  "mongoUri": "mongodb+srv://nAzdAc:nAzdAc1996@cluster0.xyvjq.mongodb.net/app?retryWrites=true&w=majority"
+  "mongoUri": "mongodb+srv://nAzdAc:nAzdAc1996@cluster0.xyvjq.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost8080"
 }

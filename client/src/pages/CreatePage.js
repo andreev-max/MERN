@@ -14,7 +14,7 @@ export const CreatePage = () => {
 	}, []);
 
 	const pressHandler = async(event) => {
-		if (event.key === 'enter') {
+		if (event.key === 'Enter') {
 			try {
 				const data = await request(
 					'/api/link/generate',
@@ -24,7 +24,7 @@ export const CreatePage = () => {
 						Authorization: `Bearer ${auth.token}`
 					}
 				);
-				history.push(`/detail/${data.link_id}`)
+				history.push(`/detail/${data.link._id}`)
 			} catch (e) {}
 		}
 	}
